@@ -133,6 +133,18 @@ public interface OperationCallbackInterface {
 
    #### Usage for UART Connectivity
 
+   **Uart Settings**
+
+   - Baudrate: 115200
+   - Data bits: 8 bits
+   - Parity: None
+   - Stop bits: 1 bit
+   - Flow control: None
+
+   ​
+
+   **Uart Library Usage**
+
    1. Include `uartcommlib.aar` in your project, and add it as the project dependencies.
 
    2. In your project **manifest** file, add the following code: 
